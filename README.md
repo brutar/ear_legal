@@ -12,9 +12,9 @@ Projeto preparado para deploy como site estatico na Vercel.
 
 Rotas esperadas no dominio final:
 
-- `https://eartraininglab.com.br/politica-de-privacidade`
-- `https://eartraininglab.com.br/termos-de-uso`
-- `https://eartraininglab.com.br/excluir-conta`
+- `https://www.eartraininglab.com.br/politica-de-privacidade`
+- `https://www.eartraininglab.com.br/termos-de-uso`
+- `https://www.eartraininglab.com.br/excluir-conta`
 
 Configuracao esperada:
 
@@ -22,7 +22,7 @@ Configuracao esperada:
 2. Framework preset: `Other`.
 3. Build command vazio.
 4. Output directory vazio ou raiz do repositorio.
-5. Dominio `eartraininglab.com.br` adicionado ao projeto Vercel.
+5. Dominios `eartraininglab.com.br` e `www.eartraininglab.com.br` adicionados ao projeto Vercel.
 6. DNS no Registro.br apontando para os registros indicados pela Vercel.
 
 ## Revisao
