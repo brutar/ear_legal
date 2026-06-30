@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Email confirmado - Ear Training Lab</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #071c2c;
+      --card: #102f45;
+      --border: #245b78;
+      --text: #eef8ff;
+      --muted: #b8d2e4;
+      --accent: #32c7bd;
+      --accent-strong: #ffc857;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      line-height: 1.5;
+    }
+
+    main {
+      width: min(100%, 560px);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.26);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+
+    .logo {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: #eef8ff;
+      border: 3px solid var(--accent);
+      display: grid;
+      place-items: center;
+      color: var(--accent-strong);
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    .brand-name {
+      margin: 0;
+      font-size: 24px;
+      line-height: 1.15;
+    }
+
+    .brand-subtitle {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: 30px;
+      line-height: 1.15;
+    }
+
+    p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 22px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(50, 199, 189, 0.14);
+      color: #d9fffb;
+      font-weight: 700;
+    }
+
+    .check {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--accent);
+      color: #06202d;
+      font-size: 15px;
+      line-height: 1;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 12px 18px;
+      border-radius: 12px;
+      background: var(--accent);
+      color: #06202d;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .note {
+      margin-top: 22px;
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+
+    @media (max-width: 520px) {
+      main {
+        padding: 26px 22px;
+      }
+
+      .brand {
+        align-items: flex-start;
+      }
+
+      h1 {
+        font-size: 26px;
+      }
+
+      .actions {
+        display: grid;
+      }
+
+      .button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">
+      <div class="logo" aria-hidden="true">♪</div>
+      <div>
+        <p class="brand-name"><strong>Ear Training Lab</strong></p>
+        <p class="brand-subtitle">Ritmo, intervalos e escalas</p>
+      </div>
+    </div>
+
+    <div class="status">
+      <span class="check" aria-hidden="true">✓</span>
+      <span>Email confirmado</span>
+    </div>
+
+    <h1>Sua conta foi confirmada</h1>
+    <p>Agora voce ja pode voltar ao aplicativo e entrar com seu email e senha.</p>
+    <p>Se o app estiver instalado neste celular, abra o Ear Training Lab e toque em Entrar.</p>
+
+    <div class="actions">
+      <a class="button" href="codex://">Abrir o app</a>
+      <a class="button secondary" href="https://www.eartraininglab.com.br">Ir para o site</a>
+    </div>
+
+    <p class="note">Se o botao nao abrir o aplicativo, abra o Ear Training Lab manualmente no celular.</p>
+  </main>
+</body>
+</html>

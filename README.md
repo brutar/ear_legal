@@ -5,6 +5,7 @@ Repositorio estatico com as paginas legais publicas do aplicativo.
 - `politica-de-privacidade/index.html` em `/politica-de-privacidade`
 - `termos-de-uso/index.html` em `/termos-de-uso`
 - `excluir-conta/index.html` em `/excluir-conta`
+- `confirmar-email/index.html` em `/confirmar-email`
 
 ## Publicacao
 
@@ -15,6 +16,7 @@ Rotas esperadas no dominio final:
 - `https://www.eartraininglab.com.br/politica-de-privacidade`
 - `https://www.eartraininglab.com.br/termos-de-uso`
 - `https://www.eartraininglab.com.br/excluir-conta`
+- `https://www.eartraininglab.com.br/confirmar-email`
 
 Configuracao esperada:
 
@@ -28,3 +30,7 @@ Configuracao esperada:
 ## Revisao
 
 Antes da publicacao comercial, revise os textos com apoio juridico.
+
+## Supabase Auth
+
+Use `https://www.eartraininglab.com.br/confirmar-email` como redirect de confirmacao de cadastro no Supabase Auth.

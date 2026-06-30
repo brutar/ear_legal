@@ -13,6 +13,10 @@
     {
       "source": "/excluir-conta",
       "destination": "/excluir-conta/index.html"
+    },
+    {
+      "source": "/confirmar-email",
+      "destination": "/confirmar-email/index.html"
     }
   ],
   "headers": [
